@@ -1,5 +1,5 @@
 <template>
-  <div @mousemove="followMouse" class="max-w-[1200px] m-auto flex flex-col items-center">
+  <div @mousemove="followMouse" class="max-w-[1200px] m-auto flex flex-col items-center mb-16">
     <div class="mt-16 text-main text-2xl flex flex-col items-center">
       <h2>Skills</h2>
       <hr class="mt-1 w-10 border-b-2 border-main" />
@@ -20,7 +20,7 @@
     <div
       ref="followDiv"
       v-show = "showDescription"
-      class="absolute w-64 border-2 bg-white py-3 px-5 border-dark rounded-md pointer-events-none"
+      class="absolute w-64 border-2 bg-white py-3 px-5 border-dark text-dark rounded-md pointer-events-none"
     >
         {{ desc }}
     </div>
@@ -42,17 +42,16 @@ const skills = ref([
   {title: "React Native", desc:"I have developed 2 apps using Expo framework."},
   {title: "Tailwind", desc:"I am familiar with Bootstrap, but I prefer the freedom that Tailwind CSS gives me in terms of design."},
   {title: "Wordpress", desc:"I have used Wordpress to create an e-commerce website."},
-  "Self-taught",
-  "Passion for development",
-  "Fast learner",
-  "mySQL",
-  "phpMyAdmin",
-  "Supabase",
-  "Relational BBDD",
-  "HCI basics",
-  "Design",
-  "Versatile",
-  "Adaptable",
+  {title: "Supabase", desc:"I have used Supabase in multiple projects for user authentication, table creation, and using buckets."},
+  {title: "mySQL", desc:"I know the basics of SQL and I have experience with phpMyAdmin."},
+  {title: "Relational BBDD", desc:"I have knowledge of relational database model architecture."},
+  {title: "Self-taught", desc:"I am self-sufficient and have ease in finding resources to learn independently."},
+  {title: "Passion for development", desc:"I enjoy development. I enjoy programming and I am always working on personal projects."},
+  {title: "Fast learner", desc:"I have ease in learning new concepts and adapting to new dynamics."},
+  {title: "HCI basics", desc:"I know the fundamentals of HCI, I am familiar with UX/UI design and I always try to apply it in my projects."},
+  {title: "Design", desc:"I have knowledge of design in general and I am aware of current trends."},
+  {title: "Versatile", desc:"Maybe I do not reach excellence in everything but I adapt notably in almost everything."},
+
 ]);
 
 const followDiv = ref(null);
