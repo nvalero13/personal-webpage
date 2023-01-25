@@ -1,8 +1,8 @@
 <template>
     <div class="max-w-[1200px] pt-32 m-auto flex justify-around flex-col-reverse items-center md:flex-row ">
         
-        <div id="left" class="flex flex-col justify-between md:h-[400px] items-center md:items-start text-center md:text-start">
-            <div class="md:mt-8">
+        <div id="left" class="flex flex-col justify-between md:h-[400px] items-center md:items-start text-center md:text-start p-0 md:p-8">
+            <div class="md:mt-8 ">
                 <div class=" text-3xl md:text-5xl lg:text-[58px] font-bold text-dark leading-8 md:leading-[48px] lg:leading-[64px]">
                     Hi! I'm <span class="text-main">Nil Valero</span> <br/>
                     Frontend Developer
@@ -21,7 +21,7 @@
         </div>
 
         <div>
-            <img class="max-w-[300px] object-contain" src="../assets/portrait.png" alt="Portrait">
+            <img class="max-w-[300px] md:max-w-[500px] object-contain" src="../assets/portrait.png" alt="Portrait">
         </div>
 
 

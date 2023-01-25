@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[1200px] m-auto flex flex-col items-center mb-16">
+  <div class="max-w-[1200px] m-auto flex flex-col items-center mb-24">
     <div class="mt-16 text-main text-2xl flex flex-col items-center">
       <h2>Work</h2>
       <hr class="mt-1 w-10 border-b-2 border-main" />
@@ -7,7 +7,7 @@
 
     <div
       
-      class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10 mx-10"
+      class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-10 mx-10"
     >
     
       <article v-for="project in projects"
@@ -58,6 +58,7 @@ const projects = ref([
     img: "src/assets/met.png",
     title: "Met",
     desc: "Met Museum Gallery",
+    link: "https://github.com/nvalero13/met-web",
     tags: "React, API",
   },
 ]);
