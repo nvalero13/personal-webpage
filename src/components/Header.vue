@@ -1,5 +1,5 @@
 <template>
-    <div class="w-[1200px] h-[400px] pt-32 m-auto flex justify-between">
+    <div class="w-[1200px] h-[650px] pt-32 pl-10 m-auto flex justify-around">
         
         <div id="left" class="flex flex-col justify-between h-[400px]">
             <div class="mt-16">
