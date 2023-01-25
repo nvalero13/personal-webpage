@@ -10,7 +10,7 @@
 
                 <div id="buttons" class="flex gap-5 mt-6">
                     <button class="px-6 py-3 bg-main rounded-md text-white">Contact</button>
-                    <button class="px-6 py-3 bg-white rounded-md text-main border-2 border-main"><i class="fa-solid fa-file-arrow-down mr-2"></i>Download CV</button>
+                    <a href="/files/DNI.pdf" target="_blank" class="px-6 py-3 bg-white rounded-md text-main border-2 border-main"><i class="fa-solid fa-file-arrow-down mr-2"></i>Download CV</a>
                 </div>
             </div>
             <div class="flex gap-5 text-dark text-3xl">
@@ -29,6 +29,7 @@
 </template>
 
 <script setup>
+
 
 </script>
 
