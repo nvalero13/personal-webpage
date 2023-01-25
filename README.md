@@ -1,7 +1,9 @@
-# Vue 3 + Vite
+# Personal Webpage
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+ESP
+Esta es mi página personal. Hecha para que quienes estén interesados en conocerme puedan encontrar todo lo relacionado con mi experiencia como desarrollador frontend en un solo lugar, pensado para que sea más fácil conocerme.
 
-## Recommended IDE Setup
+ENG
+This is my personal page. Made for those who are interested in knowing about me can find everything related to my experience as a frontend developer in one place, designed to make it easier to know me.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+Made with Vue + Vite
