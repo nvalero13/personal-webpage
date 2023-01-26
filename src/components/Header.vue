@@ -10,7 +10,7 @@
 
                 <div id="buttons" class="flex justify-center md:justify-start gap-2 md:gap-5 mt-6">
                     <a href="#contact-section" class="px-6 py-3 bg-main rounded-md text-white hover:scale-105 border-2 border-main transition-all">Contact</a>
-                    <a href="/files/DNI.pdf" target="_blank" class="px-6 py-3 bg-white rounded-md text-main border-2 border-main hover:scale-105 transition-all"><i class="fa-solid fa-file-arrow-down mr-2"></i>Download CV</a>
+                    <a href="/files/Nil_Valero_CV.pdf" target="_blank" class="px-6 py-3 bg-white rounded-md text-main border-2 border-main hover:scale-105 transition-all"><i class="fa-solid fa-file-arrow-down mr-2"></i>Download CV</a>
                 </div>
             </div>
             <div class="flex gap-5 text-dark text-3xl mt-10">

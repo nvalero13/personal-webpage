@@ -38,24 +38,28 @@
 
 <script setup>
 import { ref } from "vue";
+import PaperBagImg from '../assets/paper-bag.png'
+import TuduImg from '../assets/tudu.png'
+import MetImg from '../assets/met.png'
+
 
 const projects = ref([
   {
-    img: "src/assets/paper-bag.png",
+    img: PaperBagImg,
     title: "Paper Bag",
     desc: "A paper bag raffle maker with funny animations.",
     link: "https://github.com/nvalero13/paper-bag",
     tags: "HTML, CSS & Javascript",
   },
   {
-    img: "src/assets/tudu.png",
+    img: TuduImg,
     title: "Tudú",
     desc: "Task manager that allows the creation of tasks, subtasks, categories and filters by date.",
     link: "https://github.com/nvalero13/ironhack-final-project",
     tags: "Vue, Supabase, Tailwind",
   },
   {
-    img: "src/assets/met.png",
+    img: MetImg,
     title: "Met Museum Gallery",
     desc: "Unconventional web gallery that consumes the MET museum API.",
     link: "https://github.com/nvalero13/met-web",
