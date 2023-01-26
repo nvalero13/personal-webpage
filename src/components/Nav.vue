@@ -1,10 +1,10 @@
 <template>
-  <div class="fixed w-full">
+  <div class="fixed w-full z-20">
     <div
-      class="border-b-2 border-main bg-white bg-opacity-75 backdrop-blur-lg z-20"
+      class="border-b-2 border-main bg-white bg-opacity-75 backdrop-blur-lg"
     >
       <div
-        class="m-auto max-w-[1248px] px-6 py-6 flex items-center justify-between text-dark text-lg z-20"
+        class="m-auto max-w-[1248px] px-6 py-6 flex items-center justify-between text-dark text-lg"
       >
         <a href="#header-section" class="font-black">Nil Valero</a>
         <nav v-if="!mobile">
@@ -66,7 +66,7 @@ const isShow = ref(false);
 const navLinks = ref([
   { title: "About", href: "#about-section" },
   { title: "Skills", href: "#skills-section" },
-  { title: "Work", href: "#work-section" },
+  { title: "Projects", href: "#work-section" },
   { title: "Contact", href: "#contact-section" },
 ]);
 

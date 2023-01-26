@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-[1200px] m-auto flex flex-col items-center mb-24">
     <div class="mt-16 text-main text-2xl flex flex-col items-center">
-      <h2>Work</h2>
+      <h2>Projects</h2>
       <hr class="mt-1 w-10 border-b-2 border-main" />
     </div>
 
@@ -41,7 +41,7 @@ import { ref } from "vue";
 import PaperBagImg from '../assets/paper-bag.png'
 import TuduImg from '../assets/tudu.png'
 import MetImg from '../assets/met.png'
-
+import PenjapenjollsImg from '../assets/penjapenjolls.png'
 
 const projects = ref([
   {
@@ -57,6 +57,13 @@ const projects = ref([
     desc: "Task manager that allows the creation of tasks, subtasks, categories and filters by date.",
     link: "https://github.com/nvalero13/ironhack-final-project",
     tags: "Vue, Supabase, Tailwind",
+  },
+  {
+    img: PenjapenjollsImg,
+    title: "Penjapenjolls",
+    desc: "E-commerce of contemporary jewelry",
+    link: "https://penjapenjolls.com/",
+    tags: "Wordpress, Photography",
   },
   {
     img: MetImg,
