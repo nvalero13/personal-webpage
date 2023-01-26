@@ -1,15 +1,15 @@
 <template>
     <div class="max-w-[1200px] pt-32 m-auto flex justify-around flex-col-reverse items-center md:flex-row ">
         
-        <div id="left" class="flex flex-col justify-between md:h-[400px] items-center md:items-start text-center md:text-start p-0 md:p-8">
+        <div id="left" class="flex flex-col justify-between md:h-[400px]  lg:h-[450px] items-center md:items-start text-center md:text-start p-0 md:p-8">
             <div class="md:mt-8 ">
-                <div class=" text-3xl md:text-5xl lg:text-[58px] font-bold text-dark leading-8 md:leading-[48px] lg:leading-[64px]">
+                <div class=" text-3xl md:text-4xl lg:text-[58px] font-bold text-dark leading-8 md:leading-[42px] lg:leading-[64px]">
                     Hi! I'm <span class="text-main">Nil Valero</span> <br/>
                     Frontend Developer
                 </div>
 
                 <div id="buttons" class="flex justify-center md:justify-start gap-2 md:gap-5 mt-6">
-                    <a href="#contact-section" class="px-6 py-3 bg-main rounded-md text-white hover:scale-105 transition-all">Contact</a>
+                    <a href="#contact-section" class="px-6 py-3 bg-main rounded-md text-white hover:scale-105 border-2 border-main transition-all">Contact</a>
                     <a href="/files/DNI.pdf" target="_blank" class="px-6 py-3 bg-white rounded-md text-main border-2 border-main hover:scale-105 transition-all"><i class="fa-solid fa-file-arrow-down mr-2"></i>Download CV</a>
                 </div>
             </div>
@@ -21,7 +21,7 @@
         </div>
 
         <div>
-            <img class="max-w-[300px] md:max-w-[500px] object-contain" src="../assets/portrait.png" alt="Portrait">
+            <img class="max-w-[300px] md:max-w-[350px] lg:max-w-[450px] object-contain" src="../assets/portrait.png" alt="Portrait">
         </div>
 
 

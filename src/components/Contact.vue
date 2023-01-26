@@ -14,7 +14,7 @@
             type="hidden"
             value="New contact message from personal webpage"
           />
-      <div class="flex flex-col md:flex-row gap-3">
+      <div class="flex flex-col md:flex-row md:gap-3">
         <div class="md:w-6/12">
           <label for="email" class="block mb-2">Email: <span class="text-main">*</span></label>
           <input
@@ -39,7 +39,7 @@
       <label for="message" class="block mb-2">Message: <span class="text-main">*</span></label>
       <textarea name="message" id="message"  rows="4"  class="border rounded p-2 mb-4 w-full h-54"></textarea>
 
-      <button class="bg-main text-white rounded py-3 px-5 w-full">Send</button>
+      <button class="bg-main hover:bg-opacity-90 text-white rounded py-3 px-5 w-full">Send</button>
     </form>
   </div>
 </template>

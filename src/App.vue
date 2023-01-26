@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div class="bg-gray-50">
     <Nav/>
     <Header id="header-section"/>
     <About id="about-section"/>
@@ -19,8 +19,13 @@ import Skills from './components/Skills.vue';
 import Work from './components/Work.vue';
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue';
+
 </script>
 
 <style scoped>
+
+#about-section, #skills-section, #work-section, #contact-section {
+  scroll-margin-top: 100px;
+}
 
 </style>

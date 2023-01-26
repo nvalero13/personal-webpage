@@ -10,7 +10,7 @@
         v-for="skill in skills"
         @mouseenter="showDescription = true, desc=skill.desc"
         @mouseleave="showDescription = false"
-        class="py-2 px-5 border-2 border-dark rounded-md text-dark hover:border-main hover:text-main cursor-default transition-all"
+        class="py-2 px-5 border-2 border-dark bg-white rounded-md text-dark hover:border-main hover:text-main cursor-default transition-all"
       >
         <p>{{ skill.title }}</p>
       </div>
@@ -42,7 +42,7 @@ const skills = ref([
   {title: "React Native", desc:"I have developed 2 apps using Expo framework."},
   {title: "Tailwind", desc:"I am familiar with Bootstrap, but I prefer the freedom that Tailwind CSS gives me in terms of design."},
   {title: "Wordpress", desc:"I have used Wordpress to create an e-commerce website."},
-  {title: "Supabase", desc:"I have used Supabase in multiple projects for user authentication, table creation, and using buckets."},
+  {title: "Supabase", desc:"I have used Supabase in multiple projects for user authentication, table creation and buckets."},
   {title: "mySQL", desc:"I know the basics of SQL and I have experience with phpMyAdmin."},
   {title: "Relational BBDD", desc:"I have knowledge of relational database model architecture."},
   {title: "Self-taught", desc:"I am self-sufficient and have ease in finding resources to learn independently."},

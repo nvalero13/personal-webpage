@@ -5,9 +5,9 @@
       <hr class="mt-1 w-10 border-b-2 border-main" />
     </div>
 
-    <div class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 w-full mt-2 mb-16">
+    <div class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 w-full mt-10 lg:mt-2 mb-16">
       <div class="lg:w-5/12 md:w-6/12 w-10/12">
-        <img class="w-full min-w-[300px] hover:rotate-3" src="../assets/portrait2.png" alt="" />
+        <img class="w-full min-w-[300px] m-auto max-w-[400px] md:max-w-full hover:rotate-3" src="../assets/portrait2.png" alt="" />
       </div>
       <div class="lg:w-7/12 md:w-6/12 w-10/12">
         <p class="text-dark">

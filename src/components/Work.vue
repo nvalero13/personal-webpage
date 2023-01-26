@@ -7,7 +7,7 @@
 
     <div
       
-      class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-10 mx-10"
+      class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 mx-10"
     >
     
       <article v-for="project in projects"
@@ -15,12 +15,12 @@
       >
       <a :href="project.link">
         <img
-          class="shadow-inner h-48 w-full object-cover rounded-t-md"
+          class="shadow-inner h-48 w-full object-cover object-left rounded-t-md"
           :src="project.img"
           :alt="`${project.title} Image`"
         />
         <div
-          class="border-t-4 border-main p-3 shadow-md h-48 flex flex-col justify-between text-dark rounded-b-md"
+          class="bg-white border-t-4 border-main p-5 shadow-md h-56 flex flex-col justify-between text-dark rounded-b-md"
         >
           <div>
             <h3 class="text-xl font-bold my-1">{{ project.title }}</h3>
@@ -43,21 +43,21 @@ const projects = ref([
   {
     img: "src/assets/paper-bag.png",
     title: "Paper Bag",
-    desc: "A paper bag raffle maker with funny animations",
+    desc: "A paper bag raffle maker with funny animations.",
     link: "https://github.com/nvalero13/paper-bag",
     tags: "HTML, CSS & Javascript",
   },
   {
     img: "src/assets/tudu.png",
     title: "Tudú",
-    desc: "Task manager",
+    desc: "Task manager that allows the creation of tasks, subtasks, categories and filters by date.",
     link: "https://github.com/nvalero13/ironhack-final-project",
     tags: "Vue, Supabase, Tailwind",
   },
   {
     img: "src/assets/met.png",
-    title: "Met",
-    desc: "Met Museum Gallery",
+    title: "Met Museum Gallery",
+    desc: "Unconventional web gallery that consumes the MET museum API.",
     link: "https://github.com/nvalero13/met-web",
     tags: "React, API",
   },
