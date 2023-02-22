@@ -1,9 +1,11 @@
 <template>
   <div class="bg-main pt-5 p-10">
-    <div class="max-w-[1200px] m-auto flex flex-col justify-between items-start sm:flex-row sm:items-center">
+    <div
+      class="max-w-[1200px] m-auto flex flex-col justify-between items-start sm:flex-row sm:items-center"
+    >
       <div class="pt-10 text-white">
         <p>Nil Valero Pi</p>
-        <p class="opacity-75 text-sm">Information updated on 26/01/23</p>
+        <p class="opacity-75 text-sm">Information updated on 22/02/23</p>
       </div>
       <div class="flex gap-5 text-white text-3xl mt-10">
         <a
