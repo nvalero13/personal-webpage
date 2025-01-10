@@ -1,40 +1,52 @@
 <template>
-  <div class="max-w-[1200px] rounded-lg sm:mx-5 xl:m-auto flex flex-col items-center">
-    <div class="mt-16 text-main text-2xl flex flex-col items-center">
-      <h2>About</h2>
-      <hr class="mt-1 w-10 border-b-2 border-main" />
-    </div>
-
-    <div class="flex flex-col md:flex-row items-center md:items-start lg:items-center gap-6 w-full mt-10 lg:mt-2 mb-16">
-      <div class="lg:w-5/12 md:w-6/12 w-10/12">
-        <img class="w-full min-w-[300px] m-auto max-w-[400px] md:max-w-full hover:rotate-3" src="../assets/portrait2.png" alt="" />
-      </div>
-      <div class="lg:w-7/12 md:w-6/12 w-10/12">
-        <p class="text-dark">
-          I am passionate about all things related to
-          multimedia creation. 
-          From animation, design, video games, movies, to
-          programming, I enjoy exploring it all.
-          <br/><br/> I studied Multimedia at <a href="https://www.citm.upc.edu/" target="_blank" class="text-main">CITM UPC</a>, and it was there that I discovered web programming and
-          the big picture surrounding it. I found it easier to understand and
-          learn than other subjects. Since then, I've been self-taught and have
-          taken various courses and completed a bootcamp at <a href="https://www.ironhack.com/es/barcelona" target="_blank" class="text-main">Ironhack</a> in frontend
-          development. 
-          <br/><br/>
-          I enjoy creating
-          things that can add value. I've worked in the communication sector and
-          have been able to handle pressure and responsibility well. I have
-          experience in project management and agile methodology.
-          
-          <br/><br/>
-          I am open to new
-          challenges and opportunities in the tech industry. 
-          My goal is to grow as a professional and learn backend skills.
-        </p>
-        
-      </div>
-    </div>
-  </div>
+	<div
+		class="mt-10 max-w-[1200px] sm:mx-5 xl:m-auto flex flex-col items-center p-10"
+	>
+		<div class="text-light text-2xl items-center border-b-2 border-light pb-2">
+			<h2 class="font-extralight">About</h2>
+		</div>
+		<div class="items-center justify-between mt-10">
+			<div
+				class="items-center md:items-start lg:items-start gap-6 w-full lg:mt-2 mb-16 text-light"
+			>
+				<p class="mb-2">
+					I am a passionate frontend developer with a strong foundation in
+					modern web technologies and a keen eye for design. My journey into the
+					tech industry began during my Multimedia studies at
+					<a
+						href="https://www.citm.upc.edu/"
+						target="_blank"
+						class="text-main hover:text-purple"
+					>
+						CITM UPC </a
+					>, where I discovered my love for web programming. What started as an
+					academic interest quickly turned into a career fueled by curiosity and
+					continuous learning.
+				</p>
+				<p class="mb-2">
+					Over the years, I've evolved into a mid-level frontend developer with
+					expertise in technologies like React, Next.js, and architecture
+					design. My experience working on the implementation of a comprehensive
+					design system has given me a deep understanding of the synergy between
+					design and development. I thrive on bridging the gap between aesthetic
+					precision and functional efficiency.
+				</p>
+				<p class="mb-2">
+					Beyond coding, I have a solid background in project management and
+					agile methodologies, developed through hands-on experience in
+					collaborative and fast-paced environments. I take pride in my ability
+					to handle responsibility, adapt to challenges, and consistently
+					deliver value.
+				</p>
+				<p class="mb-2">
+					I’m always eager to expand my skill set, and my next goal is to deepen
+					my knowledge of backend technologies. I’m looking forward to taking on
+					new challenges, contributing to impactful projects, and continuing to
+					grow as a professional in the tech industry.
+				</p>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script setup></script>
