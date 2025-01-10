@@ -1,5 +1,5 @@
 <template>
-	<div class="max-w-[1200px] m-auto flex flex-col items-center mb-24">
+	<div class="flex flex-col items-center mb-24">
 		<div
 			class="text-light text-2xl items-center border-b-2 border-light pb-2 pt-10"
 		>

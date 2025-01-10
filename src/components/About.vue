@@ -1,7 +1,5 @@
 <template>
-	<div
-		class="mt-10 max-w-[1200px] sm:mx-5 xl:m-auto flex flex-col items-center p-10"
-	>
+	<div class="mt-10 flex flex-col items-center">
 		<div class="text-light text-2xl items-center border-b-2 border-light pb-2">
 			<h2 class="font-extralight">About</h2>
 		</div>

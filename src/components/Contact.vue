@@ -1,12 +1,12 @@
 <template>
-	<div class="max-w-[1200px] m-auto flex flex-col items-center mb-24">
+	<div class="flex flex-col items-center mb-24">
 		<div class="text-light text-2xl items-center border-b-2 border-light pb-2">
 			<h2 class="font-extralight">Contact</h2>
 		</div>
 		<form
 			action="https://formsubmit.co/nvalero13@gmail.com"
 			method="POST"
-			class="text-light p-6 mt-8 w-10/12 lg:min-w-[800px]"
+			class="text-light mt-8 w-10/12 lg:min-w-[800px]"
 		>
 			<input
 				name="_subject"

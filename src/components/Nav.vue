@@ -2,7 +2,7 @@
 	<div class="fixed w-full z-20">
 		<div class="border-b-2 border-light bg-dark bg-opacity-75 backdrop-blur-lg">
 			<div
-				class="m-auto max-w-[1248px] px-6 py-6 flex items-center justify-between text-light text-lg font-light"
+				class="m-auto px-8 md:px-20 xl:px-30 py-6 flex items-center justify-between text-light text-lg font-light"
 			>
 				<a href="#header-section" class="font-extralight">Nil Valero</a>
 				<nav v-if="!mobile">

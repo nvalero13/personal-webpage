@@ -1,12 +1,12 @@
 <template>
-	<div class="max-w-[1200px] m-auto pt-32 w-auto flex justify-between">
+	<div class="flex flex-col items-center md:items-start pt-32 w-auto">
 		<div
 			id="left"
-			class="ml-8 flex flex-col justify-between md:h-[400px] lg:h-[450px] items-center md:items-start text-center md:text-start p-0 md:p-8"
+			class="lg:m-0 flex flex-col justify-between md:h-[400px] lg:h-[450px] items-center md:items-start text-center md:text-start p-0"
 		>
 			<div class="md:mt-8">
 				<div
-					class="cursor-default font-extralight text-3xl md:text-4xl lg:text-[58px] leading-8 md:leading-[42px] lg:leading-[64px] text-light"
+					class="cursor-default font-extralight text-3xl md:text-4xl md:text-[58px] leading-8 md:leading-[64px] text-light"
 				>
 					Hi! I'm
 					<span

@@ -1,13 +1,13 @@
 <template>
-	<div class="bg-dark">
-		<Nav />
+	<Nav />
+	<main class="bg-dark px-8 pb-10 md:px-20 xl:px-30">
 		<Header id="header-section" />
 		<About id="about-section" />
 		<Skills id="skills-section" />
 		<Work id="work-section" />
 		<Contact id="contact-section" />
-		<Footer />
-	</div>
+	</main>
+	<Footer />
 </template>
 
 <script setup>

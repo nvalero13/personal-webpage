@@ -1,20 +1,17 @@
 <template>
-	<div
-		@mousemove="followMouse"
-		class="max-w-[1200px] m-auto flex flex-col items-center mb-24"
-	>
+	<div @mousemove="followMouse" class="flex flex-col items-center mb-24">
 		<div
 			class="text-light text-2xl items-center border-b-2 border-light pb-2 pt-10"
 		>
 			<h2 class="font-extralight">Skills</h2>
 		</div>
 
-		<div class="flex flex-wrap justify-center gap-5 mt-10 mx-10">
+		<div class="flex flex-wrap justify-center gap-5 mt-10 mx-4">
 			<div
 				v-for="skill in skills"
 				@mouseenter="(showDescription = true), (desc = skill.desc)"
 				@mouseleave="showDescription = false"
-				class="py-2 px-5 border-2 border-light text-light hover:border-main hover:text-main cursor-default transition-all"
+				class="py-2 px-5 border-2 border-light text-light hover:border-purple hover:text-purple cursor-default transition-all"
 			>
 				<p>{{ skill.title }}</p>
 			</div>
@@ -24,7 +21,7 @@
 			<div
 				ref="followDiv"
 				v-show="showDescription"
-				class="absolute w-64 border-2 bg-white py-3 px-5 border-dark text-dark pointer-events-none"
+				class="absolute w-64 border-2 bg-purple text-white py-3 px-5 border-light pointer-events-none"
 			>
 				{{ desc }}
 			</div>
