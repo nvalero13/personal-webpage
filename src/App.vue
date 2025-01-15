@@ -1,11 +1,13 @@
 <template>
 	<Nav />
-	<main class="bg-dark px-8 pb-10 md:px-20 xl:px-30">
-		<Header id="header-section" />
-		<About id="about-section" />
-		<Skills id="skills-section" />
-		<Work id="work-section" />
-		<Contact id="contact-section" />
+	<main class="bg-dark md:px-20 xl:px-30">
+		<div class="max-w-screen-xl mx-auto px-8 pb-10">
+			<Header id="header-section" />
+			<About id="about-section" />
+			<Skills id="skills-section" />
+			<Work id="work-section" />
+			<Contact id="contact-section" />
+		</div>
 	</main>
 	<Footer />
 </template>
